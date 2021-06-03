@@ -23,6 +23,9 @@
          fetchData()
          mAdapter = NewsListAdapter(this)
          recyclerView.adapter = mAdapter
+
+
+
      }
 
      private fun fetchData() {
